@@ -1,8 +1,9 @@
 ---
-title: Duvet Genius
+title: Ikeo
 publishDate: 2020-03-04 00:00:00
-img: /assets/stock-3.jpg
+img: /assets/ikeo.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+vid: https://www.youtube.com/embed/r0zUbUu3gT8?si=tfKLxQ0G1Ga_9XjR
 description: |
   We developed a virtual showcase for the softest bedding imaginable.
 tags:

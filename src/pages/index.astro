@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Emmanuelle Giffard"
+					tagline="Enthousiaste et déterminée, je suis une développeuse web fullstack passionnée par la résolution de problèmes complexes. Formée de manière intensive, j'ai acquis des compétences solides en programmation et conception web. Forte d'une carrière antérieure de 10 ans en architecture, j'ai orienté ma passion pour la conception vers le monde du développement web. Prête à affronter de nouveaux défis, je suis résolue à évoluer dans ce domaine dynamique."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="compass" size="1.33em" /> Autonomie</Pill>
+						<Pill><Icon icon="brain" size="1.33em" /> Esprit analytique</Pill>
+						<Pill><Icon icon="user_three" size="1.33em" /> Travail en équipe</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Emmanuelle Giffard"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/portrait.jpeg"
 				/>
 			</header>
 
@@ -76,28 +76,6 @@ const projects = (await getCollection('work'))
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
 				</div>
 			</section>
 		</main>
