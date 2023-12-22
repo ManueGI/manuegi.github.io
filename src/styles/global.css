@@ -200,6 +200,8 @@ h5 {
 .stack {
 	display: flex;
 	flex-direction: column;
+  align-content: stretch;;
+  justify-content: space-around
 }
 
 .gap-2 {

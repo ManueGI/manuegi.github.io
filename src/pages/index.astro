@@ -12,9 +12,11 @@ import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 
+
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
+import Typed from '../components/Typed.html';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -31,9 +33,9 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Emmanuelle Giffard"
-					tagline="Enthousiaste et déterminée, je suis une développeuse web fullstack passionnée par la résolution de problèmes complexes. Formée de manière intensive, j'ai acquis des compétences solides en programmation et conception web. Forte d'une carrière antérieure de 10 ans en architecture, j'ai orienté ma passion pour la conception vers le monde du développement web. Prête à affronter de nouveaux défis, je suis résolue à évoluer dans ce domaine dynamique."
 					align="start"
 				>
+          <Typed/>
 					<div class="roles">
 						<Pill><Icon icon="compass" size="1.33em" /> Autonomie</Pill>
 						<Pill><Icon icon="brain" size="1.33em" /> Esprit analytique</Pill>
@@ -52,14 +54,14 @@ const projects = (await getCollection('work'))
 			<Skills />
 		</div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
+		<!-- <main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
 					<p>Take a look below at some of my featured work for clients from the past few years.</p>
-				</header>
+				</header> -->
 
-				<div class="gallery">
+				<!-- <div class="gallery">
 					<Grid variant="offset">
 						{
 							projects.map((project) => (
@@ -69,14 +71,14 @@ const projects = (await getCollection('work'))
 							))
 						}
 					</Grid>
-				</div>
+				</div> -->
 
-				<div class="cta">
+				<!-- <div class="cta">
 					<CallToAction href="/work/">
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
-				</div>
+				</div> -->
 			</section>
 		</main>
 
@@ -86,10 +88,11 @@ const projects = (await getCollection('work'))
 
 <style>
 	.hero {
-		display: flex;
+
 		flex-direction: column;
 		align-items: center;
 		gap: 2rem;
+  align-items: center;
 	}
 
 	.roles {
@@ -99,7 +102,7 @@ const projects = (await getCollection('work'))
 	.hero img {
 		aspect-ratio: 5 / 4;
 		object-fit: cover;
-		object-position: top;
+		object-position: center;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}
@@ -119,7 +122,7 @@ const projects = (await getCollection('work'))
 		}
 
 		.hero img {
-			aspect-ratio: 3 / 4;
+			aspect-ratio: 3.75 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
 		}
