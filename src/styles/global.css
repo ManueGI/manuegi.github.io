@@ -1,6 +1,10 @@
 /* Global variables */
+
+
 :root {
 	/* Colors */
+  --day: rgb(206, 55, 146);
+  --night: rgb(214, 126, 31);
 	--gray-0: #090b11;
 	--gray-50: #141925;
 	--gray-100: #283044;
@@ -74,6 +78,8 @@
 }
 
 :root.theme-dark {
+  --day: rgb(79, 65, 203);
+  --night: rgb(113, 12, 106);
 	--gray-0: #ffffff;
 	--gray-50: #f3f4f7;
 	--gray-100: #e3e6ee;
