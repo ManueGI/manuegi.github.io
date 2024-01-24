@@ -33,7 +33,7 @@ const { Content } = await entry.render();
 			<header>
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
-					<Hero title={entry.data.title} align="start">
+					<Hero title={entry.data.title} align="start" >
 						<div class="details">
 							<div class="tags">
 								{entry.data.tags.map((t: unknown) => <Pill>{t}</Pill>)}
@@ -44,11 +44,35 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
-          {entry.data.img && <iframe width="560" height="315" src={entry.data.vid} title={entry.data.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe> }
+
+          <div class="stack gap-10 content">
+            {entry.data.vid ? (
+              <div>
+                <div style="position: relative; padding-bottom: 45%; height: 0;">
+                  <iframe
+                    src={entry.data.vid}
+                    frameborder="0"
+                    allowfullscreen
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                  </iframe>
+                </div>
+                <p>Vidéo de présentation</p>
+              </div>
+            ) : (
+              entry.data.img && (
+                <img
+                  src={entry.data.img}
+                  alt={entry.data.title}
+                  width="560"
+                  height="315"
+
+                />
+              )
+            )}
+          </div>
+
 					<div class="content">
-            <div class="stack gap-10 content">
-              {entry.data.vid && entry.data.img}
+            <div class="stack content">
            	<Content />
 					</div>
 				</div>
@@ -150,4 +174,8 @@ const { Content } = await entry.render();
 			font-size: var(--text-2xl);
 		}
 	}
+
+  .hover {
+
+  }
 </style>
