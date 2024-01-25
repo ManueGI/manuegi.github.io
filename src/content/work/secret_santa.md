@@ -7,9 +7,9 @@ vid: 'https://www.youtube.com/embed/awjF_DYKBCU?si=WaqpIXT19iZFVUcX'
 description: Tirage au sort pour organiser son secret santa
 
 tags:
-  - Tirage aléatoire
+  - Aléatoire
   - Fullstack
-  - Projet personnel
+  - Autonomie
 ---
 
 <a href="https://github.com/ManueGI/nain-porte-quoi.git"> Répertoire GitHub</a>
