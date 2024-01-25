@@ -3,9 +3,9 @@ title: Nain Porte Quoi
 publishDate: 2023-06-01 00:00:00
 img: /assets/nain_porte.png
 img_alt: Home du site nain porte quoi
-vid: 'https://www.loom.com/embed/4f3afd12384a4d5a98d02e73e1592c18?sid=cd13b2e9-9009-47d8-8dda-484eafc808a1'
+vid: 'https://www.youtube.com/embed/NDoDEFhak_I?si=W_shxOiHS0tGfHa3'
 description: |
-  Projet en équipe : plateforme de location
+  Projet en équipe : plateforme de location de nains de jardin
 tags:
   - Airbnb like
   - Créativité

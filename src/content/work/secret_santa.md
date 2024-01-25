@@ -3,7 +3,7 @@ title: Secret Santa
 publishDate: 2019-10-02 00:00:00
 img: /assets/santa.png
 img_alt: Couverture du site Secret Santa
-vid: https://www.youtube.com/embed/r0zUbUu3gT8?si=tfKLxQ0G1Ga_9XjR
+vid: 'https://www.youtube.com/embed/awjF_DYKBCU?si=WaqpIXT19iZFVUcX'
 description: Tirage au sort pour organiser son secret santa
 
 tags:
@@ -24,6 +24,7 @@ Bienvenue sur "Secret Santa", un site que j'ai développé en totale autonomie. 
 <ul>
   <li>Utilisation de Ruby on Rails pour la construction de l'infrastructure back-end</li>
   <li>Création du modèle "User" avec la gem Devise</li>
+  <li>Gestion des autorisations avec la gem "Pundit"</li>
   <li>Mise en place de modèles tels que "User", "Group", "GroupMember", et "SantaAssignment".</li>
   <li>Création du modèle "Wihlist" pour servir de table de jointure entre les modèles "User" et "Wish" pour permettre une évolution au site internet. Le site peut évoluer et laisser la possibilité aux utilisateurs de créer plusieurs wishlists, par budget ou par type de cadeau par exemple</li>
 </ul>
