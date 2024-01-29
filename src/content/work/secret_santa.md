@@ -1,5 +1,5 @@
 ---
-title: Secret Santa 
+title: Secret Santa
 publishDate: 2019-10-02 00:00:00
 img: /assets/santa.png
 img_alt: Couverture du site Secret Santa
@@ -20,9 +20,9 @@ Bienvenue sur "Secret Santa", un site que j'ai développé en totale autonomie. 
 
 > Architecture :
 
-<strong>Backend - Ruby On Rails :</strong>
+<strong>Backend - Ruby on Rails :</strong>
 <ul>
-  <li>Utilisation de Ruby On Rails pour la construction de l'infrastructure back-end</li>
+  <li>Utilisation de Ruby on Rails pour la construction de l'infrastructure back-end</li>
   <li>Création du modèle "User" avec la gem Devise</li>
   <li>Gestion des autorisations avec la gem "Pundit"</li>
   <li>Mise en place de modèles tels que "User", "Group", "GroupMember", et "SantaAssignment".</li>

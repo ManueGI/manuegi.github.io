@@ -1,5 +1,5 @@
 ---
-title: Nain Porte Quoi 
+title: Nain Porte Quoi
 publishDate: 2023-06-01 00:00:00
 img: /assets/nain_porte.png
 img_alt: Home du site nain porte quoi
@@ -20,7 +20,7 @@ Ce site e-commerce décalé s'inspire du modèle d'Airbnb tout en introduisant u
 
 > Architecture :
 
-<strong>Backend - Ruby On Rails :</strong>
+<strong>Backend - Ruby on Rails :</strong>
 <ul>
   <li>Utilisation de Ruby on Rails pour la construction de l'infrastructure back-end</li>
   <li>Création du modèle "User" avec la gem Devise</li>

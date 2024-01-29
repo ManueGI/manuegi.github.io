@@ -15,11 +15,11 @@ tags:
 
 ### Sauvetage à Ikeo
 A la fin de ma formation au Wagon nous avons eu l'occasion de développer un projet complet en équipe de 4 personnes. J'ai eu le privilège de contribuer au développement du projet "Sauvetage à Ikeo".
-Ce projet, conçu en Ruby On Rails, est un escape game en ligne ludique. Les joueurs sont engagés dans une mission pour libérer le logo "Koko" captif sur le site Ikeo. Le jeu repose sur une suite d'énigmes progressives, stimulant ainsi l'engagement des utilisateurs.
+Ce projet, conçu en Ruby on Rails, est un escape game en ligne ludique. Les joueurs sont engagés dans une mission pour libérer le logo "Koko" captif sur le site Ikeo. Le jeu repose sur une suite d'énigmes progressives, stimulant ainsi l'engagement des utilisateurs.
 > Architecture :
-<strong>Backend - Ruby On Rails :</strong>
+<strong>Backend - Ruby on Rails :</strong>
 <ul>
-  <li>Utilisation de Ruby On Rails pour la construction de l'infrastructure back-end</li>
+  <li>Utilisation de Ruby on Rails pour la construction de l'infrastructure back-end</li>
   <li>Création du modèle "User" avec la gem Devise</li>
   <li>Implémentation de la logique du jeu sur le modèle "Game", directement lié au modèle "User".
   <li>Changements de l'attribut "level" du modèle "Game" déclenchent des comportements spécifiques, orchestrant ainsi l'expérience du joueur de manière judicieuse. Cette approche permet une progression fluide du jeu, tout en offrant une flexibilité pour l'ajout de nouvelles énigmes et fonctionnalités à l'avenir.</li>
